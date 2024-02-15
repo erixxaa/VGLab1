@@ -11,6 +11,8 @@ config_version=5
 [application]
 
 config/name="FCLC Lab 1"
+config/description="My first lab"
+run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 

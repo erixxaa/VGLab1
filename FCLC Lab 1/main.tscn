@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://b7lpemxclerf0"]
+
+[ext_resource type="Texture2D" uid="uid://cmwc18d4ugcnr" path="res://Wall.jpeg" id="1_ersbp"]
+[ext_resource type="Texture2D" uid="uid://wh8p2ftmgiqn" path="res://icon.svg" id="1_wgn5c"]
+[ext_resource type="Texture2D" uid="uid://dxnoe4u0n1h7a" path="res://Wall 2.jpeg" id="2_rw6n1"]
+[ext_resource type="Texture2D" uid="uid://buxo1qvfillnb" path="res://Wall 3.jpeg" id="3_0rbjs"]
+
+[node name="Wall" type="Sprite2D"]
+position = Vector2(348.174, 322.922)
+rotation = -0.0122173
+scale = Vector2(-0.555546, 0.508505)
+skew = 0.0488692
+texture = ExtResource("1_ersbp")
+
+[node name="Wall2" type="Sprite2D" parent="."]
+position = Vector2(-1154.86, 2.63083)
+scale = Vector2(0.48361, 0.99515)
+texture = ExtResource("2_rw6n1")
+
+[node name="Wall3" type="Sprite2D" parent="."]
+position = Vector2(254.253, -341.31)
+scale = Vector2(0.838525, 0.4165)
+texture = ExtResource("3_0rbjs")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(-69.2891, -376.96)
+scale = Vector2(2.2481, 2.37653)
+skew = 0.0314159
+texture = ExtResource("1_wgn5c")
