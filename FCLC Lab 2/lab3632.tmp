@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfaiuaqqssd2d"]
+
+[ext_resource type="Texture2D" uid="uid://wh8p2ftmgiqn" path="res://icon.svg" id="1_bral7"]
+[ext_resource type="Script" path="res://Icon Lab 2.gd" id="2_jwk3e"]
+
+[node name="Lab 2" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(200, 107)
+texture = ExtResource("1_bral7")
+script = ExtResource("2_jwk3e")
+health = 5
+booleanVar = null
